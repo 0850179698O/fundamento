@@ -2,13 +2,14 @@
 using  namespace std;
 int main (){
         float a,b,c;
+	cout<<"inserte los numeros a sumar"<<endl;
         cin>>a>>b;
 
         c=a+b;
 
 
 
-        cout<<c;
+        cout<<"este es el resltado de su suma"<<c;
 
 
 
