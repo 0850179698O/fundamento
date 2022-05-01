@@ -1,18 +1,25 @@
-#include<iostream>
+#include<iostream>/*programa q iso el profesor*/
 using namespace std;
 int main()
 {
-	int n, c=0, c1=1, c2=0, cl, cz;
+//inicio del programa
+int n, c=0, c1=1, c2=0, cl, cz;
 	float x, al, a=0, a1=0, a2=0, az;
 	
 	
 	cout<<"\ningrese la cantidad de monedas: "<<endl;  cin>>n;
+
+
+	//inicio del bucle
 	do
 	{
 	
 		cout<<"Ingrese el valor de la moneda (0.10 - 0.25): "<<endl;  cin>>x;
 		c = c+1;
 		a = a+x;
+	
+
+		//inicio de condicionales
 		if(x==0.25)
 		{
 			c1 = c1+1;
@@ -24,7 +31,7 @@ int main()
 				a2 = a2+x;
 			}
    }
-	while(c<n);
+	while(c<n);//fin del bucle
 	
 	cout<<" total de monedas ingresadas: "<<c<<endl;
 	cout<<" total de dinero contado: "<<a<<endl;

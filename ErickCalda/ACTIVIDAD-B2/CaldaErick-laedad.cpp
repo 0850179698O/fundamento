@@ -1,8 +1,8 @@
-#include<iostream>
+#include<iostream>/*calcula la edad de una persona*/
 using namespace std;
-int main(){
+int main(){//inicio del programa
 	int edad,diaactual,mesactual,anoactual, anonaci,mesnaci,dianaci;
-	
+	// declarando 
 
 	cout<<"ingrese el ano naci"<<endl;
 	cin>>anonaci;
@@ -21,14 +21,19 @@ int main(){
 	cin>>mesactual;
 	cout<<"ingrese el dia actal"<<endl;
 	 cin>>diaactual;
-	if(mesnaci < mesactual){
+
+
+	 //inicio del condicional 
+	 if(mesnaci < mesactual){
 	    edad=anoactual-anonaci;
 		}else if(mesnaci<=mesactual & dianaci<=diaactual){
 			edad=anonaci-anoactual;
 	}else if(mesnaci>mesactual& dianaci>mesactual){(edad=anoactual-anonaci)-1;
-	}
+	}//fin del condicional
 	
-	cout<< edad;
+
+	 // mostrando edad 
+	 cout<< edad;
 	
 
 	return 0;

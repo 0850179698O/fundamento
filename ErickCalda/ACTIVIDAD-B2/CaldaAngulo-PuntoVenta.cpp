@@ -1,5 +1,5 @@
 #include<iostream>
-using namespace std;
+using namespace std;/*programa realizado*/
 int main()
 {
 	int a=0,c=0;
@@ -8,14 +8,17 @@ int main()
 	cout<<"\n\t\t***programa de Erick***"<<endl;
 	cout<<"Ingrese la cantidad de los pruductos";   
 	cin>>n;
-	
+	//inicio del bucle
 	do
 	{cout<<"\ningrese el precio del producto ";  
 		cin>> x;
 		c = c+1;
 		a = a+x;
 	}
-	while(c<n);
+	while(c<n);//fin del bucle
+		
+
+	// se saca la cuenta
 	vb = a;
 	viva = vb*0.12;
 	vdes = vb*0.10;
