@@ -22,7 +22,7 @@ else
 
 if(x>y)
 
-cout<<"\n el mayor es:"<<x;
+cout<<"Creado por Jenniffer Torres \n el mayor es:"<<x;
 
 else
 

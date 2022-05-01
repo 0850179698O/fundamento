@@ -14,7 +14,7 @@ int main ()
     int mesNac; 
     int fechNac; 
  
-    cout << "\n\tPrograma que calcula la Edad, Mes y Dia\n\n";
+    cout << "\n\tPrograma creado por Jenniffer Torres que calcula la Edad, Mes y Dia\n\n";
     cout << "Ingrese Año Actual: ";   cin >> anioAct;
     cout << "Ingrese Mes Actual: ";   cin >> mesAct;
     cout << "Ingrese Fecha Actual: ";  cin >> fechAct;

@@ -6,7 +6,7 @@ int main(void)
     float x,n;
     do
     {
-   cout<<"ingresa una noneda:";
+   cout<<"//Programa creado por Torres Jenniffer//ingresa una noneda:";
    cin>>x;
    c=c+1;
    a=a+1;

@@ -3,7 +3,7 @@
 int main()
 {
  float x,c=0,a=0,n,vb,iva,vdes,vf;
-cout<<"ingrece la cantidad de producto que quiera sumar";
+cout<<"//Programa creado por Pamela Torres// ingrece la cantidad de producto que quiera sumar";
 cin>>x;                                     
 c=c+1;
 a=a+x;
