@@ -33,13 +33,14 @@ int main()
         }else{
         AR_pt=AR_e+AR_tiva-AR_tdes;
 
-//================================================
-//==> Nombre del programa: Precio de varios productos
-//==> Archivo : TiguaVivi-PuntoVenta.cpp
-//==>Autor: Viviana Tigua
-//==>Fecha de elaboración: 2022-04-25
-//==>Fecha ultima actualización: 2022-05-18
-//=================================================
+cout<<endl<<"//================================================"<<endl;
+cout<<"//==> Nombre del programa: Punto de Venta"<<endl;
+cout<<"//==> Archivo : TiguaVivi-PuntoVenta.cpp"<<endl;
+cout<<"//==>Autor: Viviana Tigua"<<endl;
+cout<<"//==>Fecha de elaboración: 2022-04-25"<<endl;
+cout<<"//==>Fecha ultima actualización: 2022-05-18"<<endl;
+cout<<"//================================================="<<endl;
+
 
         cout<<"El valor total a pagar de su compra es: $ "<<AR_pt<<endl;
         }
