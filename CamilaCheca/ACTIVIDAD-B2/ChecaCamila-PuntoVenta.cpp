@@ -1,54 +1,41 @@
-
-   //===NOMBRE DEL PROGRAMA: PuntoVenta                                  //===AUTOR: Camila Checa 
-   //===ARCHIVO: PuntoVenta.cpp
-   //===FECHA DE ELABORACION:01-05-2022
-   ////===FECHA ULTIMA DE ACTUALIZACION: 13-05-2020
-
-
-
+/* ===NOMBRE DEL PROGRAMA: PUNTO DE VENTA 
+===AUTOR: Camila Checa Chila
+===ARCHIVO: ChecaCamila-PuntoVenta.cpp
+===FECHA DE ELABORACION:01-05-2022
+===FECHA ULTIMA DE ACTUALIZACION: 18-05-2022*/
 #include<iostream>
-
-using namespace std;
- int main() 
-{ 
+using namespace std;/*programa realizado punto de venta*/
+int main(){
+	int Cch_a=0,Cch_c=0;
+	float Cch_x, Cch_n, Cch_vb, Cch_viva, Cch_vdes, Cch_vfi, Cch_vft;
 	
-	float PJ_x,PJ_c=0,PJ_a=0,PJ_n,PJ_vb,PJ_viva,PJ_vdesc,PJ_vf;
-      cout<<"ingrese cantidad de productos PJ_n :";
-      cin>>PJ_n;
-      do{
-  
-      cout<<"ingrese costo del producto PJ_x: ";
-      cin>>PJ_x;
-
-      PJ_c=PJ_c+1;
-      PJ_a=PJ_a+PJ_x;
-  
-
-      }while(PJ_c<PJ_n);
-  
-     PJ_vb=PJ_a;
-     PJ_viva=PJ_vb*0.12;
-     PJ_vdesc=PJ_vb*0.10;                             
-     PJ_vf=PJ_vb+PJ_viva-PJ_vdesc;   
-
-    cout<<"valor total es  :";  
-    cout<<PJ_vb<<endl;
-    cout<<"valor del iva es  :";
-    cout<<PJ_viva<<endl;
-    cout<<"valor del descuento  es :";                          
-    cout<<PJ_vdesc<<endl;                                                                                cout<<"total de productos son  :";    
-    cout<<PJ_n<<endl;               
-    cout<<"valor final a pagar es :";
-    cout<<PJ_vf<<endl;
-
-} 
-cout<<endl<<"//========================================="<<endl;
-cout<<"//===> Nombre del programa: PuntoVenta"<<endl;
-cout<<"//===> Archivo: PuntoVenta.cpp"<<endl;
-cout<<"//===> Autor: Camila Checa"<<endl;
-cout<<"//===> Fecha de elaboracion: 01-05-2022"<<endl;
-cout<<"//===> Fecha de actualizacion: 13-05-2022"<<endl;
-cout<<"//========================================="<<endl;
-
-return 0;
+	cout<<"\n\t\t***programa de Camila***"<<endl;
+	cout<<"Ingrese la cantidad de los pruductos";   
+	cin>>Cch_n;
+	//inicio del bucle
+	do
+	{cout<<"\ningrese el precio del producto ";  
+	cin>> Cch_x;
+	Cch_c = Cch_c+1;
+	Cch_a = Cch_a+Cch_x;
+	}
+	while(Cch_c<Cch_n);//fin del bucle
+	
+	
+	// se saca la cuenta
+	Cch_vb = Cch_a;
+	Cch_viva = Cch_vb*0.12;
+	Cch_vdes = Cch_vb*0.10;
+	Cch_vfi = Cch_vb+Cch_viva;
+	Cch_vft = Cch_vfi-Cch_vdes;
+	
+	cout<<"\nValor a pagar solo del iva : "<<Cch_vfi<<endl;
+	cout<<"\nvalor tital a pagar"<<Cch_vft;
+	cout<<"//========================================="<<endl;
+	cout<<"//===> Nombre del programa: PUNTO DE VENTA"<<endl;
+	cout<<"//===> Archivo: ChecaCamila-PuntoVenta.cpp"<<endl;
+	cout<<"//===> Fecha de elaboracion: 01-05-2022"<<endl;
+	cout<<"//===> Fecha de actualizacion: 18-05-2022"<<endl;
+	cout<<"//========================================="<<endl;
+	return 0;
 }
