@@ -1,29 +1,47 @@
+//================================================
+//==> Nombre del programa: Precio de varios productos
+//==> Archivo : TiguaVivi-PuntoVenta.cpp
+//==>Autor: Viviana Tigua
+//==>Fecha de elaboración: 2022-04-25
+//==>Fecha ultima actualización: 2022-05-18
+//=================================================
+
+
 #include<iostream>
 using namespace std;
 int main()
 {
-        int B=0,q;
-        float E=0,m,vt,tiva,tdes,iva=0.12,dsc=0.10,pt;
+        int AR_b=0,AR_q;
+        float AR_e=0,AR_m,AR_vt,AR_tiva,AR_tdes,AR_iva=0.12,AR_dsc=0.10,AR_pt;
         cout<<"Ingresar la cantidad de productos a comprar: ";
-        cin>>q;
+        cin>>AR_q;
         do{
         cout<<"Ingresar el valor del producto: ";
-        cin>>m;
-        B=B+1;
-        E=E+m;
-        tiva=E*iva;
-        cout<<"El valor del iva de su compra es: $ " <<tiva<<endl;
-        tdes=E*dsc;
-        vt=tiva+tdes;
+        cin>>AR_m;
+        AR_b=AR_b+1;
+        AR_e=AR_e+AR_m;
+        AR_tiva=AR_e*AR_iva;
+        cout<<"El valor del iva de su compra es: $ " <<AR_tiva<<endl;
+        AR_tdes=AR_e*AR_dsc;
+        AR_vt=AR_tiva+AR_tdes;
         }
-        while(B<q);
-        if(vt==B){
-        cout<<"Su compra obtiene descuento de: "<<vt<<endl;
-        iva=vt*tiva/100;
-        dsc=vt*tdes/100;
+        while(AR_b<AR_q);
+        if(AR_vt==AR_b){
+        cout<<"Su compra obtiene descuento de: "<<AR_vt<<endl;
+        AR_iva=AR_vt*AR_tiva/100;
+        AR_dsc=AR_vt*AR_tdes/100;
         }else{
-        pt=E+tiva-tdes;
-        cout<<"El valor total a pagar de su compra es: $ "<<pt<<endl;
+        AR_pt=AR_e+AR_tiva-AR_tdes;
+
+//================================================
+//==> Nombre del programa: Precio de varios productos
+//==> Archivo : TiguaVivi-PuntoVenta.cpp
+//==>Autor: Viviana Tigua
+//==>Fecha de elaboración: 2022-04-25
+//==>Fecha ultima actualización: 2022-05-18
+//=================================================
+
+        cout<<"El valor total a pagar de su compra es: $ "<<AR_pt<<endl;
         }
         return 0;
 }
