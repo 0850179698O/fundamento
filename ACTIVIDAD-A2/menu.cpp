@@ -5,6 +5,7 @@ using namespace std;
 #include"CamilaCheca.h"
 #include"CaldaErick.h"
 #include"malo.h"
+#include"JennifferTorres.h"
 
 
 int main(){
@@ -73,12 +74,18 @@ int main(){
 							cout<<"                                        ";cin>>d;
 							system("cls");
 							switch(d){
-							case 1:{}break;
+							case 1:{JT_sumaN();
+
+							       }break;
 							
-							case 2:{}break;
-							case 3:{}break;
-							case 4:{}break;
-							case 5:{}break;
+							case 2:{JT_compara();
+							       }break;
+							case 3:{JT_puntoventa();
+							       }break;
+							case 4:{JT_cuentamoneda();
+							       }break;
+							case 5:{JT_laedad();
+							}break;
 							case 6:{cout<<"si esta seguro de salir dijite (-1-)";cout<<"     ";cout<<"Si decea regresar al menu principal     "<<endl;
 							cout<<"                                      ";cin>>r;
 							if(r==1){
