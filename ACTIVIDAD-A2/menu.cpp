@@ -6,6 +6,7 @@ using namespace std;
 #include"CaldaErick.h"
 #include"malo.h"
 #include"JennifferTorres.h"
+#include"TiguaAngie.h"
 
 
 int main(){
@@ -16,7 +17,7 @@ int main(){
 	
 	
 	cout<<"\n\n\n\n\t\t\t\t\t1|->CALDA ANGULO ERICK PATRICIO"<<endl;
-	cout<<"\n\t\t\t\t\t2.|->TOORES AYOVI JENNIFFER PAMELA "<<endl;
+	cout<<"\n\t\t\t\t\t2.|->TORRES AYOVI JENNIFFER PAMELA "<<endl;
 	cout<<"\n\t\t\t\t\t3.|->CHECA CHILA CAMILA IRENE"<<endl;
 	cout<<"\n\t\t\t\t\t4.|->TIGUA RODRIGUEZ ANGIE VIVIANA "<<endl;
 	cout<<"\n\t\t\t\t\t5.|->REALPE ESTUPIÑAN EMILY MAILY"<<endl;
@@ -130,25 +131,24 @@ int main(){
 							}
 							
 		}break;
-		case 4: {cout<<"\n\t\t\t\tAQUI PODRAS ENCONTRAS TODOS LOS EJERCIOS DE TIGUA ANGIE  "<<endl;
+		case 4: {cout<<"\n\t\t\t\tAQUI PODRAS ENCONTRAR TODOS LOS EJERCICIOS DE TIGUA ANGIE  "<<endl;
 						
-						cout<<"\n\n\n\n\t\t\t\t\t1|->1Suma de dos numeros:"<<endl;
+						cout<<"\n\n\n\n\t\t\t\t\t1.|->Suma de dos numeros:"<<endl;
 						cout<<"\n\t\t\t\t\t2.|->Compara dos numeros:"<<endl;
 						cout<<"\n\t\t\t\t\t3.|->Punto de venta:"<<endl;
 						cout<<"\n\t\t\t\t\t4.|->Contador de monedas:"<<endl;
-						cout<<"\n\t\t\t\t\t5.|->Cacular la edad de una persona :"<<endl;
+						cout<<"\n\t\t\t\t\t5.|->Calcular la edad de una persona :"<<endl;
 						cout<<"\n\t\t\t\t\t6.|->Salir :"<<endl;
 						cout<<""<<endl;
 						cout<<"                                        ";cin>>d;
 						system("cls");
 						switch(d){
-						case 1:{}break;
-						
-						case 2:{}break;
-						case 3:{}break;
-						case 4:{}break;
-						case 5:{}break;
-						case 6:{cout<<"si esta seguro de salir dijite (-1-)";cout<<"     ";cout<<"Si decea regresar al menu principal     "<<endl;
+						case 1:{TV_SumaN();}break;
+						case 2:{TV_Compara();}break;
+						case 3:{TV_PuntoVenta();}break;
+						case 4:{TV_CuentaMoneda();}break;
+						case 5:{TV_LaEdad();}break;
+						case 6:{cout<<"Si esta seguro de salir digite (-1-)";cout<<"     ";cout<<"Si desea regresar al menu principal     "<<endl;
 						cout<<"                                      ";cin>>r;
 						if(r==1){
 							return 0;
