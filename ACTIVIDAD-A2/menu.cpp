@@ -13,7 +13,7 @@ int main(){
 	int a,d,r,M;
 	
 	system("color 1f ");
-	cout<<"\n\t\t\t\t\tINGRESE LA OPCION QUE DECEA EXPLORAR:"<<endl;
+	cout<<"\n\t\t\t\t\tINGRESE LA OPCION QUE DESEA EXPLORAR:"<<endl;
 	
 	
 	cout<<"\n\n\n\n\t\t\t\t\t1|->CALDA ANGULO ERICK PATRICIO"<<endl;
@@ -21,7 +21,7 @@ int main(){
 	cout<<"\n\t\t\t\t\t3.|->CHECA CHILA CAMILA IRENE"<<endl;
 	cout<<"\n\t\t\t\t\t4.|->TIGUA RODRIGUEZ ANGIE VIVIANA "<<endl;
 	cout<<"\n\t\t\t\t\t5.|->REALPE ESTUPIÑAN EMILY MAILY"<<endl;
-	cout<<"\n\t\t\t\t\t6.|->salir"""<<endl;
+	cout<<"\n\t\t\t\t\t6.|->Salir"""<<endl;
 	cout<<""<<endl;
 	
 	cout<<"                                        ";cin>>a;
